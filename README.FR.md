@@ -29,13 +29,13 @@ $>`rails server`
 
 Visitez [localhost](http://localhost:3000).
 # Où trouver quoi
-Les contrôleurs se trouvent dans le dossier app/controllers.
-Les vues se trouvent dans le dossier app/views.
-Les modèles se trouvent dans le dossier app/models.
-Les migrations de base de données se trouvent dans le dossier db/migrate.
-Les tests se trouvent dans le dossier test.
-Les fichiers de configuration se trouvent dans le dossier config.
-#Gems supplémentaires
++ Les contrôleurs se trouvent dans le dossier app/controllers.
++ Les vues se trouvent dans le dossier app/views.
++ Les modèles se trouvent dans le dossier app/models.
++ Les migrations de base de données se trouvent dans le dossier db/migrate.
++ Les tests se trouvent dans le dossier test.
++ Les fichiers de configuration se trouvent dans le dossier config.
+# Gems supplémentaires
 Ce projet utilise les gems supplémentaires suivantes pour ajouter des fonctionnalités :
 
 + Devise pour l'authentification.
@@ -69,12 +69,12 @@ $>`rails server`
 
 Visit [localhost](http://localhost:3000).
 # Where to Find What
-Controllers can be found in the app/controllers folder.
-Views can be found in the app/views folder.
-Models can be found in the app/models folder.
-Database migrations can be found in the db/migrate folder.
-Tests can be found in the test folder.
-Configuration files can be found in the config folder.
++ Controllers can be found in the app/controllers folder.
++ Views can be found in the app/views folder.
++ Models can be found in the app/models folder.
++ Database migrations can be found in the db/migrate folder.
++ Tests can be found in the test folder.
++ Configuration files can be found in the config folder.
 
 # Additional Gems
 This project uses the following additional gems to add functionality:
