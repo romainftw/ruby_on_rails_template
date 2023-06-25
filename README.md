@@ -1,5 +1,8 @@
 # English version available below :us: 
 # :fr: 
+
+# template prêt à l'emploi de Ruby on Rails, déjà configuré avec Devise.
+
 # Comment initialiser le projet
 Une fois que vous avez cloné ce dépôt, suivez les étapes ci-dessous pour configurer le projet sur votre machine locale.
 
@@ -35,6 +38,7 @@ Visitez [localhost](http://localhost:3000).
 + Les migrations de base de données se trouvent dans le dossier db/migrate.
 + Les tests se trouvent dans le dossier test.
 + Les fichiers de configuration se trouvent dans le dossier config.
+  
 # Gems supplémentaires
 Ce projet utilise les gems supplémentaires suivantes pour ajouter des fonctionnalités :
 
@@ -44,6 +48,7 @@ Ce projet utilise les gems supplémentaires suivantes pour ajouter des fonctionn
 # ENJOY ! :v:
 
 # :us:
+# Ruby on Rails template, already configured
 # How to Initialize the Project
 After you've cloned this repository, follow the steps below to set up the project on your local machine.
 
