@@ -2,7 +2,7 @@ last update 06/2023
 # English version available below :us: 
 # :fr: 
 
-# template de Ruby on Rails, déjà configuré avec Devise.
+# template de Ruby on Rails, déjà configuré avec Devise et un chat.
 
 # Comment initialiser le projet
 Une fois que vous avez cloné ce dépôt, suivez les étapes ci-dessous pour configurer le projet sur votre machine locale.
@@ -41,15 +41,16 @@ Visitez [localhost](http://localhost:3000).
 + Les fichiers de configuration se trouvent dans le dossier config.
   
 ## Gems supplémentaires
-Ce projet utilise les gems supplémentaires suivantes pour ajouter des fonctionnalités :
+Ce projet utilise les feature supplémentaires suivantes pour ajouter des fonctionnalités :
 
 + Devise pour l'authentification.
 + Pundit pour l'autorisation.
 + Simple Form pour faciliter la création de formulaires.
++ un chat.
 # ENJOY ! :v:
 
 # :us:
-# Ruby on Rails template, already configured
+# Ruby on Rails template, already configured with Device and a Chat.
 # How to Initialize the Project
 After you've cloned this repository, follow the steps below to set up the project on your local machine.
 
@@ -88,6 +89,7 @@ This project uses the following additional gems to add functionality:
 + Devise for authentication.
 + Pundit for authorization.
 + Simple Form for easier form creation.
++ chatroom.
 # ENJOY! :v:
 
 
