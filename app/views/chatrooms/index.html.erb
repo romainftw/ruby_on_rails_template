@@ -1,0 +1,23 @@
+<h1>Chat</h1>
+
+<ul>
+  <% @chatrooms.each do |chatroom| %>
+    <li>
+      <%= link_to chatroom.name, chatroom_path(chatroom) %>
+      <%= link_to 'Delete', chatroom_path(chatroom), method: :delete, data: { confirm: 'Are you sure?' } %>
+      <%= form_with(model: chatroom, url: chatroom_path(chatroom), method: :delete, local: true) do |form| %>
+        <%= form.submit "Delete", class: "btn btn-danger" %>
+      <% end %>
+    </li>
+  <% end %>
+</ul>
+
+
+<%= form_with(model: @new_chatroom, url: chatrooms_path, local: true) do |form| %>
+  <div class="form-group">
+    <%= form.label :name %>
+    <%= form.text_field :name, class: "form-control" %>
+  </div>
+
+  <%= form.submit "Create Chatroom", class: "btn btn-primary" %>
+<% end %>
